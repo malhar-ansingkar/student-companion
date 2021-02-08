@@ -1,0 +1,140 @@
+*{
+    font-size: 1.5vw;
+}
+.top{
+    margin-top: 15px;
+    background-color: #c5c5c5;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid grey;            
+}
+.inn{
+    background-image: url('index.jpg');
+    height: 300px;
+    min-width: 100%;
+    margin-left: 0;
+}
+.filter{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 15px;
+    /* margin: 20px 2.5% 0 10px; */
+    margin: 20px auto;
+    height: 500px;
+    padding-top: 20px;
+    width: 20%;
+}
+.gridl{
+    margin-left: 20px;
+}
+.searchs{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+.searchb{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.search{
+    margin:20px 0 25px 0;
+}
+.img{
+    margin-bottom: 30px;
+    
+}
+.img1{
+    background-color: #ffffff;
+    border-radius: 10%;
+    margin-right: 30px;
+    min-height: 185px;
+    padding: 0;
+    margin-bottom: 10px;
+    width: 28%;
+}
+.img2{
+    background-color: #ffffff;
+    border-radius: 10%;
+    margin-right: 30px;
+    min-height: 185px;
+    margin-bottom: 10px;
+    width: 28%;
+    padding: 0;
+}
+.img3{
+    background-color: #ffffff;
+    border-radius: 10%;
+    min-height: 185px;
+    margin-bottom: 10px;
+    width: 28%;
+    padding: 0;
+}
+.icon{
+    float: right;
+    border: solid grey 1px;
+    border-radius:50%;
+}
+img{
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    min-height: 50px;
+}
+.name{
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.3);
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: xx-small;
+}
+.distance{
+    padding: 4%;
+}
+
+.rate{
+    background-color:green;color:white;
+    float:right;
+    padding: 1.5px 2.5px 1.5px 2.5px;
+}
+.data{
+    text-align: center;
+}
+.end_card{
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0px 0px 0px;
+    border-top: 1px solid grey;
+}
+.direction{
+    padding: 10px;
+}
+.details{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+@media screen and (max-width:600px){
+    *{
+        font-size:2vw;
+    }
+    .img1{
+        margin-right:15px ;
+    }
+    .img2{
+        margin-right: 15px;
+    }
+    .filter{
+        width: 80%;
+    }
+    .searchb{
+        font-size: 1vw;
+    }
+}
+@media screen and (min-width:575px){
+    .direction{
+    border-right: 1.5px solid grey;
+    }
+}

@@ -1,0 +1,115 @@
+*{
+    font-size: 1.5vw;
+    margin: 0;
+}
+.main_tittle{
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.tittle{
+    font-weight: bold;
+    padding-left: 35%;
+    font-size: 3vw;
+}
+.icon_p{
+    height: 3.5%;
+    width: 3.5%;
+    padding-bottom:1.2%;
+}
+.overlay{
+    position: relative;
+}
+.photob{
+    background-color: #ffffff;   
+    /* margin: 2.5% 2.5% 0 2.5%; */
+}
+.photo{
+    display: block;
+    width: 100%;
+    padding: 4%;
+    border-radius: unset;
+}
+.card_d{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 50%;
+    padding: 8px;
+    margin-left: 25%;
+    position: absolute;
+    top: 80%;
+}
+.name_dist_rate{
+    padding: 8px;
+    border-bottom: solid 1px grey;
+}
+.dist_rate{
+    float: right;
+}
+.dist{
+    padding-right: 4px;
+    font-size: 1vw;
+}
+.dist svg{
+    width: 10%;
+    height: 10%;
+}
+.rating{
+    margin-left: 3%;
+    background-color:green;
+    color:white;
+    padding: 3px 2px 3px 2px;
+    font-size: 1vw;
+}
+.rating svg{
+    width: 10%;
+    width: 10%;
+    padding-bottom: 2px;
+}
+.time{
+    margin: 10px 0;
+}
+.contact{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.5vw;
+}
+.dir{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 1.5vw;
+}
+.amount{
+    float: right;
+    border-radius: 10px;
+    background-color: grey;
+    font-size: 1.5vw;
+}
+.description{
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top:115%;
+    width: 50%;
+    padding: 5px;
+    margin-left: 25%;
+    /* margin-top: 10px; */
+}
+@media screen and (max-width:600px){
+    .card_d{
+        top:70%;
+    }
+}
+@media screen and (max-width:363px){
+    .card_d{
+        top: 55%;
+    }    
+}
+@media screen and (min-width:1010px){
+    .card_d{
+        top:85%;
+    }
+}
+
